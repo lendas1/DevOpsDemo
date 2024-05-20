@@ -3,6 +3,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
+            //Änderung des Titels
             "title": "ToDo Listen App 3000",
             "formList": [
                 {
@@ -95,9 +96,11 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
+                            //Änderung der Begrüßung
                             "value": "<h4>Servus zu der neuen ToDo Listen Application</h4>",
                             "newRow": true
                         },
+                        //Hinzufügen einer weiteren ToDo Liste & Farbauswahl
                         {
                             "type": "button",
                             "name": { default: "ToDo-List Sabrina" },
