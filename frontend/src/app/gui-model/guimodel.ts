@@ -3,7 +3,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "DevOpsDemo FS2024",
+            "title": "ToDo Listen App 3000",
             "formList": [
                 {
                     "id": "OwnUserForm",
@@ -95,23 +95,23 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Servus zu der neuen ToDo Listen Application</h4>",
                             "newRow": true
                         },
                         {
                             "type": "button",
-                            "name": { default: "ToDo-List" },
+                            "name": { default: "ToDo-List Sabrina" },
                             "icon": "fa-file-alt",
-                            "color": "wet-asphalt",
+                            "color": "amethyst",
                             "page": "toDoPage",
                             "width": 2,
                             "newRow": true,
                         },
                         {
                             "type": "button",
-                            "name": { default: "Einkaufsliste" },
+                            "name": { default: "ToDo-List Leandro" },
                             "icon": "fa-file-alt",
-                            "color": "wet-asphalt",
+                            "color": "soft-pink",
                             "page": "toDoPage",
                             "width": 2,
                             "newRow": true,
